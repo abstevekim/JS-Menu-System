@@ -1,0 +1,162 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+   <meta charset='utf-8'>
+   <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+   <link rel="stylesheet" href="styles.css">
+
+   <title>Foundation Menu</title>
+
+</head>
+
+<body>
+
+  <!-- <div class="row full-width wrapper">
+      <div class="large-12 columns content-bg"> -->
+
+            <div id="top-menu" style='margin-top:20px; margin-left:0px;' >
+                <div class="row page-top-bar full-width">
+                    <div class="large-2 medium-2 small-4 columns top-part-no-padding">
+                        <div class="logo-bg">
+                            <i class="fi-list tagMenu toggles nav-text" data-toggle="hide" id="tagListMenu"></i>
+                            <a href="javascript:void(0)">
+                                <img id="logoStaff" src="images/masters_school_logo.png" height="70" width="210"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="large-3 medium-4 small-2 columns top-menu">
+                        <i class="fi-power power-off power-offOfAdmin"></i>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="row" style='margin-top:20px; margin-left:0px;'>
+
+               <div id="steveNav" class="side-nav-div large-3 medium-3 small-12 columns loadpgTopMargin">
+                    <ul style="border-radius: 0px 0px 0px 0px;" class="steve-nav full-height">
+
+                              <li id="side-nav-hr" class="has-sub"><a href="javascript:void(0)"  id='side-nav-hr-a'><span id = 'side-nav-hr-span'>HR</span></a>
+                                    <ul id="side-nav-hr-ul">
+                                        <li class="has-sub" id="menu_hr"><a id='side-nav-hr-hr-a' href="javascript:void(0)"><span id='side-nav-hr-hr-span'>HR</span></a>
+                                            <ul>
+                                                    <li class="last" id="menu_hr_newEmployee"><a id='side-nav-hr-ne-a' href="javascript:void(0)"><span id='side-nav-hr-ne-span'>New Employee Package</span></a></li>
+                                                    <li class="last" id="menu_hr_groupBenefits"><a id='side-nav-hr-gr-a' href="javascript:void(0)"><span id='side-nav-hr-gr-span'>Group Benefits</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-sub" id="menu_hr"><a href="javascript:void(0)" id='side-nav-hr-ma-a'><span id='side-nav-hr-ma-span'>Maintenance</span></a>
+                                            <ul>
+                                                    <li class='last'><a href='https://login.myschoolbuilding.com/msb' target='_blank'><span>Facility Booking</span></a></li>
+                                                    <li class='last'><a href='https://login.myschoolbuilding.com/msb?acctNum=283903341' target='_blank'><span>Maintenance Request</span></a></li>
+                                                    <li class='last' id='hr3'><a href='#'><span>WCB</span></a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                              </li>
+
+                              <li id="side-nav-op" class="has-sub"><a href="javascript:void(0)" id='side-nav-op-a'><span id='side-nav-op-span'>Operations</span></a>
+                                     <ul>
+                                            <li class="last" id="operation_Password"><a href="javascript:void(0)"><span>Password</span></a></li>
+                                            <li class="last" id="operation_PPGateway"><a href="javascript:void(0)"><span>PP gateway</span></a></li>
+                                            <li class="last" id="operation_Prayer"><a href="javascript:void(0)"><span>Prayer</span></a></li>
+                                            <li class="last" id="operation_PIPA"><a href="javascript:void(0)"><span>PIPA/FOIPP Print</span></a></li>
+                                     </ul>
+                              </li>
+
+                              <li class='has-sub'><a href="javascript:void(0)" id="side-nav-ad-a"><span id="side-nav-ad-span">Admission Admin</span></a>
+                                      <ul>
+                                            <li id="side-nav-registrar" class='last'>
+                                            </li>
+                                            <li id="side-nav-regfinance" class='last'>
+                                                <a href="javascript:void(0)" id="side-nav-ad-fi-a"><span id="side-nav-ad-fi-span">Financial</span></a>
+                                            </li>
+                                            <li id="side-nav-moveRegData2ps" class='last'>
+                                                <a href="javascript:void(0)" id="side-nav-ad-mo-a"><span id="side-nav-ad-mo-span">Move to PS</span></a>
+                                            </li>
+                                      </ul>
+                              </li>
+
+                              <li class='has-sub'><a href="javascript:void(0)" id="side-nav-no-a"><span id="side-nav-no-span">Notes Admin</span></a>
+                                      <ul>
+                                            <li id="side-nav-notes-staff" class='last'>
+                                                <a href="javascript:void(0)" id="notes_staff"><span>Admin</span></a>
+                                            </li>
+                                            <li id="side-nav-notes-teacher" class='last'>
+                                                <a href="javascript:void(0)" id="notes_teacher"><span>Teacher</span></a>
+                                            </li>
+                                      </ul>
+                              </li>
+
+                              <li class='has-sub'><a href="javascript:void(0)" id="side-nav-pt-a"><span id="side-nav-pt-span">PTC Admin</span></a>
+                                      <ul>
+                                            <li id="side-nav-ptc-admin" class="ROLE_ADMIN">
+                                                <a href="javascript:void(0)" id="ptc_admin">Admin</a>
+                                            </li>
+                                            <li id="side-nav-ptc-operation" class="ROLE_ADMIN">
+                                                <a href="javascript:void(0)" id="ptc_operation">Operation</a>
+                                            </li>
+                                            <li id="side-nav-ptc-report" class="ROLE_ADMIN">
+                                                <a href="javascript:void(0)" id="ptc_report">Report</a>
+                                            </li>
+                                      </ul>
+                              </li>
+
+                              <li class='has-sub'><a href="javascript:void(0)" id="side-nav-pa-a"><span id="side-nav-pa-span">Payment Admin</span></a>
+                                      <ul>
+                                            <li id="side-nav-onlinePaymentItems" class="ROLE_ADMIN">
+                                                <a href="javascript:void(0)" id="onlinePayment_item">Items</a>
+                                            </li>
+                                            <li id="side-nav-onlinePaymentOption" class="ROLE_ADMIN">
+                                                <a href="javascript:void(0)" id="onlinePayment_option">Options</a>
+                                            </li>
+                                            <li id="side-nav-onlinePaymentOptionList" class="ROLE_ADMIN">
+                                                <a href="javascript:void(0)" id="onlinePayment_optionList">Option List</a>
+                                            </li>
+                                      </ul>
+                              </li>
+
+                              <li class="has-sub"><a href="javascript:void(0)" id="side-nav-af-a"><span id="side-nav-af-span">Apple Fundraiser</span></a>
+                                      <ul>
+                                            <li id="side-nav-registrar" class='last'>
+                                                <a href="javascript:void(0)" id="side-nav-af-af-a"><span id="side-nav-af-af-span">Apple Fundraiser</span></a>
+                                            </li>
+                                      </ul>
+                              </li>
+
+                    </ul>
+                </div>
+
+                <div class="large-9 medium-9 columns ">
+                        <div class="large-9 columns" style="margin-top:0px;">
+                            <div id="viewDocsQuickAccessListMain" style="margin-top:0px;">
+                                <a href="javascript:void(0)" id="side-nav-xx-af-a"><span id="side-nav-xx-af-span">Apple test</span></a>
+                            </div>
+                        </div>
+                        <div class="large-9 columns" style="margin-top:0px;">
+                            <div id="viewDocsListMain" style="margin-top:0px;">
+                            </div>
+                        </div>
+                </div>
+
+            </div>   <!-- row -->
+
+    <!-- </div>
+  </div> -->
+
+  <div class="row">
+      <div id="errorLoadingContents" style="width:100%; text-align:center"></div>
+  </div>
+  <div class="row">
+      <div id="messageLoadingContents" style="width:100%; text-align:center"></div>
+  </div>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+
+<html>
