@@ -6,4 +6,4 @@ How to run this application
 
 step 1. Run Index.html on the browser.
 
-You can see 3 level menu.
+You can see 3 level navigation menu.
